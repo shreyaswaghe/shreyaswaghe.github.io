@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nEuler’s method\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "My CV. A more up to date version may be found on my LinkedIn."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Shreyas Waghe",
+    "section": "",
+    "text": "Bio\nI’m a third-year student at the University of Massachusetts Amherst, studying Computer Science and Applied Mathematics. I study and research mathematics – Fair Machine Learning, Statistical Physics, and Dynamical Systems.\nMy interests are at the intersection of Computational and Applied Mathematics, and the development and application of mathematical theory to support mathematical computing.\nI’ve had graduate coursework in Linear Algebra & Calculus, ODE Systems, Machine Learning, Probabilistic Graphical Models, and Computational Biology. I describe more of my coursework here.\nI’ve been an Undergraduate Researcher at:\n\nFair and Explainable Decision-Making Lab, UMass CS\nPALM Research Lab, Brown University CS (with an NSF Undergraduate Fellowship!)\nMachta Research Group, UMass Physics\n\nAdditionally, I’ve TA-ed the following courses at UMass:\n\nPre-Calculus (Math 100, 101)\nComputational Physics (Physics 281)\nArtificial Intelligence (CS 383)\nIntroduction to the Theory of Computation (CS 250)\n\n\n\nReaching out\nI’m active on LinkedIn, and I’m always available on e-mail."
+  },
+  {
+    "objectID": "posts/euler/nb.html",
+    "href": "posts/euler/nb.html",
+    "title": "Shreyas Waghe",
+    "section": "",
+    "text": "import numpy as np\nimport matplotlib as plt"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "Any course numbered 500 or higher is considered a dual undergraduate-graduate course.\nAny course numbered 600 or higher is considered a graduate course for students on the doctoral track, and undergraduate students need special instructor permission to enroll.\nAcademic mentors named alongside their courses."
+  },
+  {
+    "objectID": "courses.html#spring-2024",
+    "href": "courses.html#spring-2024",
+    "title": "Courses",
+    "section": "Spring 2024",
+    "text": "Spring 2024\n\nMath 590STA - Mathematical Machine Learning (Debut Cohort!)\nMath 545 - Advanced Linear Algebra for Applied Mathematics\nCompSci 550 - Simulations & Analysis\nCompSci 688 - Probabilistic Graphical Models"
+  },
+  {
+    "objectID": "courses.html#fall-2023",
+    "href": "courses.html#fall-2023",
+    "title": "Courses",
+    "section": "Fall 2023",
+    "text": "Fall 2023\n\nMath 690STB - Computational Cell Biology - Dr Andreas Buttenschoen (Debut Cohort!)\nMath 532H - Non-Linear Dynamics and Chaos Theory - Dr Panayotis Kevrekidis\nCompSci 514 - Algorithms for Data Science\nCompSci 589 - Machine Learning"
+  },
+  {
+    "objectID": "courses.html#spring-2023",
+    "href": "courses.html#spring-2023",
+    "title": "Courses",
+    "section": "Spring 2023",
+    "text": "Spring 2023\n\nMath 697CM - Combinatorial Optimization - Dr Annie Raymond\nMath 552 - Applications of Scientific Computing - Dr Andreas Buttenschoen\nCompSci 311 - Algorithms: Analysis and Design - Dr Marius Minea\nMath Independent Study - Applications of Topological Data Analysis - Dr Andreas Buttenschoen\nCompSci Independent Study - Efficiently Optimizing Power Mean Objectives in Fair Machine Learning - Dr Cyrus Cousins, Dr Yair Zick"
+  },
+  {
+    "objectID": "courses.html#fall-2022",
+    "href": "courses.html#fall-2022",
+    "title": "Courses",
+    "section": "Fall 2022",
+    "text": "Fall 2022\n\nMath 551 - Introduction to Scientific Computing - Dr Andreas Buttenschoen\nMath 456 - Mathematical Modeling (Linear Programming and Polyhedral Theory) - Dr Annie Raymond\nCompSci 490A - Applications of Natural Language Processing\nCompSci 383 - Artificial Intelligence\nCompSci 250 - Introduction to the Theory of Computation"
+  },
+  {
+    "objectID": "courses.html#spring-2022",
+    "href": "courses.html#spring-2022",
+    "title": "Courses",
+    "section": "Spring 2022",
+    "text": "Spring 2022\n\nMath 331 - Ordinary Differential Equations\nCompSci 220 - Programming Methodologies\nCompSci 240 - Probability and Statistics"
+  },
+  {
+    "objectID": "courses.html#fall-2021",
+    "href": "courses.html#fall-2021",
+    "title": "Courses",
+    "section": "Fall 2021",
+    "text": "Fall 2021\n\nMath 233 - Multivariate Calculus\nMath 235 - Linear Algebra\nCompSci 187 - Data Structures"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hiya, I’m Shreyas! I’m a third-year student studying Computer Science and Applied Mathematics at the University of Massachusetts Amherst. I am an Undergraduate Researcher at the Fair and Explainable Decision-Making Lab, and I also delve in some Statistical Physics research with the Machta Research Group at UMass.\nPreviously, I’ve been a Undergraduate Research Fellow at Brown University.\nAt any point in time, you’ll find me:\n\nstudying math / solving a math problem set\nfighting to download my jupyter notebook files as pdfs\npetting cats\ntrying to be the kindest I can be"
+  },
+  {
+    "objectID": "about.html#who-i-am",
+    "href": "about.html#who-i-am",
+    "title": "About Me",
+    "section": "",
+    "text": "Hiya, I’m Shreyas! I’m a third-year student studying Computer Science and Applied Mathematics at the University of Massachusetts Amherst. I am an Undergraduate Researcher at the Fair and Explainable Decision-Making Lab, and I also delve in some Statistical Physics research with the Machta Research Group at UMass.\nPreviously, I’ve been a Undergraduate Research Fellow at Brown University.\nAt any point in time, you’ll find me:\n\nstudying math / solving a math problem set\nfighting to download my jupyter notebook files as pdfs\npetting cats\ntrying to be the kindest I can be"
+  },
+  {
+    "objectID": "about.html#what-i-do",
+    "href": "about.html#what-i-do",
+    "title": "About Me",
+    "section": "What I do",
+    "text": "What I do\nMy interests in Mathematics are broad, and I would say much of what I do aspires to:\n\nDescribe physical phenomena quantitatively and robustly\nDrive Computer Science practice with a strong justification in Mathematical theory\n\nIn concrete terms, I’m mostly engaged in:\n\nScientific Computing - with C++, Python and Julia\nMachine Learning and Data Science\nDynamical Systems\n\nYou might know me from:\n\nUMass – I’m involved in Undergraduate Research and Teaching.\n\nMy research is in Theoretical Machine Learning, Statistical Physics and broadly Applied Math in general.\nI’ve been a TA for Pre-Calculus courses, Computational Physics (Phy 281), Artificial Intelligence (CS 383).\nSince Fall 2023, I’m a Residential Peer Mentor in Wheeler Hall.\n\nBrown University – I’ve worked with Dr Chen Sun at Brown University’s PALM 🌴 Research Lab in the Summer of 2023.\nThe Leadership Alliance – I’m a member of the 2023 cohort of the Leadership Alliance’s Summer Research Early Identification Program.\nSmt Sulochanadevi Singhania School / Hiranandani Foundation School, Thane, India.\n\nHere’s a list of courses I’ve taken at UMass and any important materials I’ve produced in them."
+  },
+  {
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "Shreyas Waghe",
+    "section": "",
+    "text": "This is a test!!\n\nprint(1 + 2)"
+  }
+]
