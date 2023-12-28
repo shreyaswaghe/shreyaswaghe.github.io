@@ -1,0 +1,43 @@
+---
+title: Courses
+---
+
+-> Any course numbered 500 or higher is considered a dual Undergraduate-Graduate course. 
+
+-> Any course numbered 600 or higher is considered a Graduate course for students on the Doctoral track, and Undergraduate students need special instructor permission to enroll.
+
+-> Academic mentors named alongside their courses.
+
+## Fall 2023
+
+(@) Math 690STB - Computational Cell Biology  - Dr Andreas Buttenschoen (Debut Cohort!)
+(@) Math 532H - Non-Linear Dynamics and Chaos Theory - Dr Panayotis Kevrekidis
+(@) CompSci 514 - Algorithms for Data Science
+(@) CompSci 589 -  Machine Learning
+
+## Spring 2023
+
+1. Math 697CM - Combinatorial Optimization - Dr Annie Raymond
+2. Math 552 - Applications of Scientific Computing - Dr Andreas Buttenschoen
+3. CompSci 311 - Algorithms: Analysis and Design - Dr Marius Minea
+4. Math Independent Study - Applications of Topological Data Analysis - Dr Andreas Buttenschoen
+5. CompSci Independent Study - Efficiently Optimizing Power Mean Objectives in Fair Machine Learning - Dr Cyrus Cousins, Dr Yair Zick
+
+## Fall 2022
+
+1. Math 551 - Introduction to Scientific Computing - Dr Andreas Buttenschoen
+2. Math 456 - Mathematical Modeling (Linear Programming and Polyhedral Theory) - Dr Annie Raymond
+3. CompSci 490A - Applications of Natural Language Processing
+4. CompSci 383 - Artificial Intelligence
+5. CompSci 250 - Introduction to the Theory of Computation
+
+# Spring 2022
+1. Math 331 - Ordinary Differential Equations
+2. CompSci 220 - Programming Methodologies
+3. CompSci 240 - Probability and Statistics
+
+# Fall 2021
+1. Math 233 - Multivariate Calculus
+2. Math 235 - Linear Algebra
+3. CompSci 187 - Data Structures
+   

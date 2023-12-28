@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Shreyas Waghe"
+  site-url: https://shreyasw.com
+  description: "Technology and the Environment"
+  open-graph:
+    locale: en_US
+  navbar:
+    right:
+      - text: "Home"
+        href: index.html
+      - text: "CV"
+        href: cv.html
+      - text: "Blog"
+        href: blog.html
+     
+format:
+  html:
+    theme: [lightly, _variables.scss]
+    css: styles.css
+
+
+

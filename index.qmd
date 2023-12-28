@@ -1,0 +1,43 @@
+---
+title: "Shreyas Waghe"
+image: "avatar.jpeg" 
+about:
+  template: trestles
+  links:
+    - text: LinkedIn
+      url: "https://linkedin.com/in/shreyaswaghe"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/shreyaswaghe"
+    - text: Email
+      url: "mailto:shreyaswaghe12@gmail.com"
+    - text: CV
+      url: "cv.qmd"
+comments: false
+---
+:::{.column-page}
+
+### Bio
+
+I'm a third-year student at the University of Massachusetts Amherst, studying Computer Science and Applied Mathematics. I study and research mathematics -- Fair Machine Learning, Statistical Physics, and Dynamical Systems.
+
+My interests are at the intersection of Computational and Applied Mathematics, and the development and application of mathematical theory to support mathematical computing. 
+
+I've had graduate coursework in Linear Algebra & Calculus, ODE Systems, Machine Learning, Probabilistic Graphical Models, and Computational Biology. I describe more of my coursework [here](courses.qmd).
+
+I've been an Undergraduate Researcher at: 
+
+1. **Fair and Explainable Decision-Making Lab, UMass CS**
+2. **PALM Research Lab, Brown University CS** (with an NSF Undergraduate Fellowship!)
+3. **Machta Research Group, UMass Physics**
+
+Additionally, I've TA-ed the following courses at UMass:
+
+1. **Pre-Calculus** (Math 100, 101)
+2. **Computational Physics** (Physics 281)
+3. **Artificial Intelligence** (CS 383)
+4. **Introduction to the Theory of Computation** (CS 250)
+
+### Reaching out
+I'm active on [LinkedIn](https://linkedin.com/in/shreyaswaghe), and I'm always available on [e-mail](mailto:shreyaswaghe12@gmail.com).
+:::

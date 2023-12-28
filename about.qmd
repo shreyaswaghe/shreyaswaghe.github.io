@@ -1,0 +1,42 @@
+---
+title: "About Me"
+---
+
+## Who I am
+
+Hiya, I'm Shreyas! I'm a third-year student studying **Computer Science and Applied Mathematics** at the University of Massachusetts Amherst. I am an Undergraduate Researcher at the **Fair and Explainable Decision-Making Lab**, and I also delve in some Statistical Physics research with the **Machta Research Group at UMass**.
+
+Previously, I've been a Undergraduate Research Fellow at **Brown University**.
+
+At any point in time, you'll find me:
+
++ studying math / solving a math problem set
++ fighting to download my jupyter notebook files as pdfs
++ petting cats
++ trying to be the kindest I can be
+
+
+## What I do
+My interests in Mathematics are broad, and I would say much of what I do aspires to:
+
+1. Describe physical phenomena quantitatively and robustly
+2. Drive Computer Science practice with a strong justification in Mathematical theory
+
+In concrete terms, I'm mostly engaged in:
+
+1. **Scientific Computing** - with C++, Python and Julia
+2. **Machine Learning and Data Science**
+3. **Dynamical Systems**
+
+You might know me from:
+
+* **UMass** -- I'm involved in Undergraduate Research and Teaching.
+    + My research is in Theoretical Machine Learning, Statistical Physics and broadly Applied Math in general.
+    + I've been a TA for **Pre-Calculus** courses, **Computational Physics** (Phy 281), **Artificial Intelligence** (CS 383).
+    + Since Fall 2023, I'm a Residential Peer Mentor in Wheeler Hall.
+* **Brown University** -- I've worked with Dr Chen Sun at Brown University's **PALM 🌴 Research Lab** in the Summer of 2023.
+* **The Leadership Alliance** -- I'm a member of the 2023 cohort of the Leadership Alliance's Summer Research Early Identification Program.
+* Smt Sulochanadevi Singhania School / Hiranandani Foundation School, Thane, India.
+
+[Here](./courses.qmd)'s a list of courses I've taken at UMass and any important materials I've produced in them.
+
