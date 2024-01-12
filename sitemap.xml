@@ -2,30 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://shreyasw.com/blog.html</loc>
-    <lastmod>2023-12-30T05:18:51.386Z</lastmod>
+    <lastmod>2024-01-12T01:16:41.593Z</lastmod>
   </url>
   <url>
     <loc>https://shreyasw.com/about.html</loc>
-    <lastmod>2023-12-30T05:18:50.566Z</lastmod>
+    <lastmod>2024-01-12T01:16:40.820Z</lastmod>
   </url>
   <url>
-    <loc>https://shreyasw.com/posts/Euler.html</loc>
-    <lastmod>2023-12-30T05:18:49.628Z</lastmod>
+    <loc>https://shreyasw.com/posts/inprogress/FourierTransform.html</loc>
+    <lastmod>2024-01-12T01:16:39.884Z</lastmod>
   </url>
   <url>
     <loc>https://shreyasw.com/courses.html</loc>
-    <lastmod>2023-12-30T05:18:48.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://shreyasw.com/posts/euler/nb.html</loc>
-    <lastmod>2023-12-30T05:18:49.232Z</lastmod>
+    <lastmod>2024-01-12T01:16:39.418Z</lastmod>
   </url>
   <url>
     <loc>https://shreyasw.com/index.html</loc>
-    <lastmod>2023-12-30T05:18:50.088Z</lastmod>
+    <lastmod>2024-01-12T01:16:40.335Z</lastmod>
   </url>
   <url>
     <loc>https://shreyasw.com/cv.html</loc>
-    <lastmod>2023-12-30T05:18:50.955Z</lastmod>
+    <lastmod>2024-01-12T01:16:41.194Z</lastmod>
   </url>
 </urlset>

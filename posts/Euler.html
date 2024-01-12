@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-01-10">
 
-<title>Shreyas Waghe - Euler’s method</title>
+<title>Shreyas Waghe - A little tutorial on using Fourier transforms</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -60,14 +61,17 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Shreyas Waghe - Euler’s method">
+<meta property="og:title" content="Shreyas Waghe - A little tutorial on using Fourier transforms">
+<meta property="og:description" content="">
 <meta property="og:site-name" content="Shreyas Waghe">
 <meta property="og:locale" content="en_US">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
@@ -97,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools ms-auto">
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -107,13 +111,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-the-fourier-transform" id="toc-what-is-the-fourier-transform" class="nav-link active" data-scroll-target="#what-is-the-fourier-transform">1. What is the Fourier transform?</a></li>
+  <li><a href="#pythonic-implementation" id="toc-pythonic-implementation" class="nav-link" data-scroll-target="#pythonic-implementation">2. Pythonic Implementation</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Euler’s method</h1>
+<h1 class="title">A little tutorial on using Fourier transforms</h1>
 </div>
 
 
@@ -121,6 +134,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 10, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -128,8 +147,19 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>This is a small tutorial on using the Fourier transform, written mostly as a cheat sheet for myself.</p>
+<section id="what-is-the-fourier-transform" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-fourier-transform">1. What is the Fourier transform?</h2>
+<p>Given a signal <span class="math inline">\(x(t)\)</span>, the Fourier transform breaks down the signal into its constituent trigonometric functions as a convergent series.</p>
+<p>Mathematically, any Lipschitz continuous periodic <span class="math inline">\(x(t)\)</span> on <span class="math inline">\([0, 2 \pi]\)</span> can be written as a complex sum (appealing to the Euler form of complex numbers): <span class="math display">\[ x(t) = \sum_{k = -\infty}^\infty c_k \exp(ikt) \]</span> where <span class="math display">\[ c_k = \frac{1}{2\pi} \int_{0}^{2\pi} x(t) \exp(-ikt)dt \,.\]</span> Use the symmetries of the sine and cosine to obtain <span class="math display">\[ x(t) = \sum_{k = 0}^{\infty} a_k \cos(kt) + \sum_{k = 1}^\infty b_k \sin(kt)\]</span> here, <span class="math inline">\(a_0 = c_0\)</span> and <span class="math display">\[ a_k = \frac{1}{\pi} \int_{0}^{2\pi} x(t) \cos(kt) dt  \quad \text{ and } \quad  b_k = \frac{1}{\pi} \int_{0}^{2\pi} x(t) \sin(kt) dt \, .\]</span> Recover the coefficients as <span class="math display">\[ c_{\pm k} = \frac{a_k}{2} \pm \frac{b_k}{2i} \,.\]</span></p>
+</section>
+<section id="pythonic-implementation" class="level2">
+<h2 class="anchored" data-anchor-id="pythonic-implementation">2. Pythonic Implementation</h2>
+<p>Assume we have <span class="math inline">\(x(t_n) = x_n\)</span> for <span class="math inline">\(n = 0\ldots N-1\)</span> with <span class="math inline">\(t_n = \tfrac{2n\pi}{N}\)</span></p>
+<p>First, as with any computational task, integrals are sums and infinites are some large limits. Given this, write <span class="math display">\[x(t) = \sum_{k = -n}^n c_k \exp(ikt)\]</span> and recover the coefficients as <span class="math display">\[c_k = \]</span></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
