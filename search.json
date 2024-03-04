@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Posts",
     "section": "",
-    "text": "No matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMy Link Archive\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -28,25 +28,18 @@
     "text": "What I do\nMy interests in Mathematics are broad, and I would say much of what I do aspires to:\n\nDescribe physical phenomena quantitatively and robustly\nDrive Computer Science practice with a strong justification in Mathematical theory\n\nIn concrete terms, I’m mostly engaged in:\n\nScientific Computing - with C++, Python and Julia\nMachine Learning and Data Science\nDynamical Systems\n\nYou might know me from:\n\nUMass – I’m involved in Undergraduate Research and Teaching.\n\nMy research is in Theoretical Machine Learning, Statistical Physics and broadly Applied Math in general.\nI’ve been a TA for Pre-Calculus courses, Computational Physics (Phy 281), Artificial Intelligence (CS 383).\nSince Fall 2023, I’m a Residential Peer Mentor in Wheeler Hall.\n\nBrown University – I’ve worked with Dr Chen Sun at Brown University’s PALM 🌴 Research Lab in the Summer of 2023.\nThe Leadership Alliance – I’m a member of the 2023 cohort of the Leadership Alliance’s Summer Research Early Identification Program.\nSmt Sulochanadevi Singhania School / Hiranandani Foundation School, Thane, India.\n\nHere’s a list of courses I’ve taken at UMass and any important materials I’ve produced in them."
   },
   {
-    "objectID": "posts/inprogress/FourierTransform.html",
-    "href": "posts/inprogress/FourierTransform.html",
-    "title": "A little tutorial on using Fourier transforms",
+    "objectID": "posts/musthaves.html",
+    "href": "posts/musthaves.html",
+    "title": "My Link Archive",
     "section": "",
-    "text": "This is a small tutorial on using the Fourier transform, written mostly as a cheat sheet for myself."
+    "text": "Vim Commands Guide\nSupercharged Vim for LaTeX\nUsing multiple accounts with Github"
   },
   {
-    "objectID": "posts/inprogress/FourierTransform.html#what-is-the-fourier-transform",
-    "href": "posts/inprogress/FourierTransform.html#what-is-the-fourier-transform",
-    "title": "A little tutorial on using Fourier transforms",
-    "section": "1. What is the Fourier transform?",
-    "text": "1. What is the Fourier transform?\nGiven a signal \\(x(t)\\), the Fourier transform breaks down the signal into its constituent trigonometric functions as a convergent series.\nMathematically, any Lipschitz continuous periodic \\(x(t)\\) on \\([0, 2 \\pi]\\) can be written as a complex sum (appealing to the Euler form of complex numbers): \\[ x(t) = \\sum_{k = -\\infty}^\\infty c_k \\exp(ikt) \\] where \\[ c_k = \\frac{1}{2\\pi} \\int_{0}^{2\\pi} x(t) \\exp(-ikt)dt \\,.\\] Use the symmetries of the sine and cosine to obtain \\[ x(t) = \\sum_{k = 0}^{\\infty} a_k \\cos(kt) + \\sum_{k = 1}^\\infty b_k \\sin(kt)\\] here, \\(a_0 = c_0\\) and \\[ a_k = \\frac{1}{\\pi} \\int_{0}^{2\\pi} x(t) \\cos(kt) dt  \\quad \\text{ and } \\quad  b_k = \\frac{1}{\\pi} \\int_{0}^{2\\pi} x(t) \\sin(kt) dt \\, .\\] Recover the coefficients as \\[ c_{\\pm k} = \\frac{a_k}{2} \\pm \\frac{b_k}{2i} \\,.\\]"
-  },
-  {
-    "objectID": "posts/inprogress/FourierTransform.html#pythonic-implementation",
-    "href": "posts/inprogress/FourierTransform.html#pythonic-implementation",
-    "title": "A little tutorial on using Fourier transforms",
-    "section": "2. Pythonic Implementation",
-    "text": "2. Pythonic Implementation"
+    "objectID": "posts/musthaves.html#vim-shell",
+    "href": "posts/musthaves.html#vim-shell",
+    "title": "My Link Archive",
+    "section": "",
+    "text": "Vim Commands Guide\nSupercharged Vim for LaTeX\nUsing multiple accounts with Github"
   },
   {
     "objectID": "courses.html",
@@ -96,6 +89,27 @@
     "title": "Courses",
     "section": "Fall 2021",
     "text": "Fall 2021\n\nMath 233 - Multivariate Calculus\nMath 235 - Linear Algebra\nCompSci 187 - Data Structures"
+  },
+  {
+    "objectID": "posts/inprogress/FourierTransform.html",
+    "href": "posts/inprogress/FourierTransform.html",
+    "title": "A little tutorial on using Fourier transforms",
+    "section": "",
+    "text": "This is a small tutorial on using the Fourier transform, written mostly as a cheat sheet for myself."
+  },
+  {
+    "objectID": "posts/inprogress/FourierTransform.html#what-is-the-fourier-transform",
+    "href": "posts/inprogress/FourierTransform.html#what-is-the-fourier-transform",
+    "title": "A little tutorial on using Fourier transforms",
+    "section": "1. What is the Fourier transform?",
+    "text": "1. What is the Fourier transform?\nGiven a signal \\(x(t)\\), the Fourier transform breaks down the signal into its constituent trigonometric functions as a convergent series.\nMathematically, any Lipschitz continuous periodic \\(x(t)\\) on \\([0, 2 \\pi]\\) can be written as a complex sum (appealing to the Euler form of complex numbers): \\[ x(t) = \\sum_{k = -\\infty}^\\infty c_k \\exp(ikt) \\] where \\[ c_k = \\frac{1}{2\\pi} \\int_{0}^{2\\pi} x(t) \\exp(-ikt)dt \\,.\\] Use the symmetries of the sine and cosine to obtain \\[ x(t) = \\sum_{k = 0}^{\\infty} a_k \\cos(kt) + \\sum_{k = 1}^\\infty b_k \\sin(kt)\\] here, \\(a_0 = c_0\\) and \\[ a_k = \\frac{1}{\\pi} \\int_{0}^{2\\pi} x(t) \\cos(kt) dt  \\quad \\text{ and } \\quad  b_k = \\frac{1}{\\pi} \\int_{0}^{2\\pi} x(t) \\sin(kt) dt \\, .\\] Recover the coefficients as \\[ c_{\\pm k} = \\frac{a_k}{2} \\pm \\frac{b_k}{2i} \\,.\\]"
+  },
+  {
+    "objectID": "posts/inprogress/FourierTransform.html#pythonic-implementation",
+    "href": "posts/inprogress/FourierTransform.html#pythonic-implementation",
+    "title": "A little tutorial on using Fourier transforms",
+    "section": "2. Pythonic Implementation",
+    "text": "2. Pythonic Implementation"
   },
   {
     "objectID": "index.html",
