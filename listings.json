@@ -2,7 +2,8 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/musthaves.html"
+      "/posts/musthaves.html",
+      "/posts/cmake_quicknotes.html"
     ]
   }
 ]
